@@ -1,0 +1,22 @@
+{
+  "name": "task manag.r",
+  "short_name": "task manag.r",
+  "description": "modern minimalist app for managing daily tasks",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#FF7763",
+  "icons": [
+    {
+      "src": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/android-chrome-192x192-uNojwWK3lrn0BwvEWiPuNBvb4NlB5I.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/android-chrome-512x512-kvo3DuVxlVEJTYfeM69KtqgnyYKcUR.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
+
