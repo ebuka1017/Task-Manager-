@@ -2,7 +2,19 @@ import './globals.css'
 import { Inter } from 'next/font/google'
 import { AuthProvider } from './components/AuthProvider'
 import { ThemeProvider } from './components/ThemeProvider'
+import AvatarDropdown from "@/components/AvatarDropdown";
 
+export default function Layout({ children }) {
+  return (
+      <div className="relative">
+            <header className="flex justify-between items-center p-4">
+	            <div className="text-lg font-bold">Task Manager</div>
+		            <AvatarDropdown />
+			          </header>
+				        <main>{children}</main>
+					    </div>
+					      );
+					      }
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
